@@ -1,8 +1,8 @@
 import React,{ useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar';
-import Sidebar from './components/sidebar';
-import Dashboard from './pages/dashboard';
+import Sidebar from './components/Sidebar';
+import Dashboard from './pages/Dashboard';
 import AddItem from './pages/Additem';
 import EditItem from './pages/Edititem';
 import ItemList from './pages/Itemlist';
