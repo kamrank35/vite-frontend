@@ -1,5 +1,5 @@
 import { Link,useNavigate } from "react-router-dom";
-import { deleteItem } from "../services/API";
+import { deleteItem } from "../services/API.JS";
 import Swal from "sweetalert2";
 function Table({ data, refreshedItems }) {
   const navigate = useNavigate();
