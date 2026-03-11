@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams,useNavigate } from "react-router-dom";
-import { getItemById, updateItem } from "D:\dotit_intern\my-react-app\src\services\api.js";
+import { getItemById, updateItem } from "../services/api";
 
 function EditItem() {
 

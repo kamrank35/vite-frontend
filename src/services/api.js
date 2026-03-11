@@ -27,6 +27,6 @@ export const updateItem = (id, formData) =>
     headers: { "Content-Type": "multipart/form-data" }
   });
 
-  export const deleteItem = (id) => API.delete(`/items/${id}`);
+export const deleteItem = (id) => API.delete(`/items/${id}`);
 
 export default API;
