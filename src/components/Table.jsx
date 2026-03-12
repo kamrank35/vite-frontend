@@ -27,7 +27,7 @@ function Table({ data, refreshedItems }) {
       );
 
       refreshedItems(); // reload items
-      // navigate("/items"); 
+      navigate("/items"); 
 
 
     } catch (error) {
