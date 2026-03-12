@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getItems } from "../services/api";
+import { getItems } from "../services/api.js";
 import Table from "../components/Table";
 
 function ItemList() {

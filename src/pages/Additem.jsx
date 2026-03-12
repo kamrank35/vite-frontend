@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { addItem } from "../services/API.JS";
+import { addItem } from "../services/api.js";
 
 function AddItem() {
 
