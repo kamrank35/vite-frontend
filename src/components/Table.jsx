@@ -65,7 +65,7 @@ function Table({ data, refreshedItems }) {
                 src={`https://full-react-vite.onrender.com/uploads/${item.image}`}
                 alt={item.name}
                   className="img-fluid"
-                  width="60"
+                  width="120"
                 />
               )}
             </td>
