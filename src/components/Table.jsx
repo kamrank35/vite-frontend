@@ -62,7 +62,7 @@ function Table({ data, refreshedItems }) {
             <td>
               {item.image && (
                 <img
-                  src={`http://localhost:5000/uploads/${item.image}`}
+                  src={`https://vite-backend.onrender.com/uploads/${item.image}`}
                   alt={item.name}
                   className="img-fluid"
                   width="60"
