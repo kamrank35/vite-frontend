@@ -62,8 +62,7 @@ function Table({ data, refreshedItems }) {
             <td>
               {item.image && (
                 <img
-                src={`https://full-react-vite.onrender.com/uploads/3b2b1792843ac165d2dabf7eca6fc616`}
-                // ${item.image}
+                src={`https://full-react-vite.onrender.com/uploads/${item.image}`}
                 alt={item.name}
                   className="img-fluid"
                   width="60"
