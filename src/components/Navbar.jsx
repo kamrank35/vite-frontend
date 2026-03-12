@@ -2,22 +2,21 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <div className="container">
-
-        <Link className="navbar-brand" to="/">Inventory</Link>
+    <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div className="container-fluid">
+        <Link className="navbar-brand" to="/">Navbar</Link>
 
         <button
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
+          data-bs-target="#navbarSupportedContent"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className=" navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ms-auto">
+        <div className="navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
 
             <li className="nav-item">
               <Link className="nav-link" to="/">Dashboard</Link>
@@ -28,12 +27,22 @@ function Navbar() {
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" to="/items">Items</Link>
+              <Link className="nav-link" to="/items">Item List</Link>
             </li>
 
           </ul>
-        </div>
 
+          <form className="d-flex">
+            <input
+              className="form-control me-2"
+              type="search"
+              placeholder="Search"
+            />
+            <button className="btn btn-outline-success">
+              Search
+            </button>
+          </form>
+        </div>
       </div>
     </nav>
   );
