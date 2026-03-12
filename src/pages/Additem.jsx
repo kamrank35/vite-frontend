@@ -88,7 +88,7 @@ function AddItem() {
   <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 </div>
 )}
-    <div className="col-lg-12 col-md-8 col-sm-6">
+    <div className="col-lg-12 col-md-10 col-sm-6">
       <h2>Add Item</h2>
 
       <form onSubmit={handleSubmit}>
