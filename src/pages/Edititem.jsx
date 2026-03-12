@@ -43,7 +43,7 @@ function EditItem() {
       setPrice(res.data.price);
 
       if (res.data.image) {
-        setPreview(`http://localhost:5000/uploads/${res.data.image}`);
+        setPreview(`http://full-react-vite.onrender.com/uploads/${res.data.image}`);
       }
 
     } catch (error) {
