@@ -6,14 +6,36 @@
   text-align: center;
 }
 
-body {
-  padding-top: 70px;
+body{
+  padding-top:70px;
 }
 
-@media (max-width: 768px) {
-  .sidebar {
-    display: none;
+/* Sidebar */
+.sidebar{
+  width:220px;
+  height:100vh;
+  position:fixed;
+  left:0;
+  top:70px;
+  background:#f8f9fa;
+}
+
+main{
+  margin-left:220px;
+  padding:20px;
+}
+
+/* Mobile */
+@media (max-width:768px){
+
+  .sidebar{
+    display:none;
   }
+
+  main{
+    margin-left:0;
+  }
+
 }
 
 .logo {
